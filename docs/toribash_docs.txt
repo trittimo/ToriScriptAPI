@@ -1,0 +1,259 @@
+# I used a script to generate a skeleton structure of all the non-lua fields contained in the global table. I plan on adding in documentation when I get time/if I get suggestions
+
+set_ghost_color -> function
+get_obj_mass -> function
+draw_line -> function
+get_errno -> function
+chat_input_is_active -> function
+set_payment_mode -> function
+get_bet_info -> function
+add_hook -> function
+step_game -> function
+set_obj_rot -> function
+get_body_linear_vel -> function
+set_grip_info -> function
+reset_server -> function
+get_payment_mode -> function
+open_upmenu -> function
+get_full_mode_chat_lines -> function
+draw_disk_3d -> function
+set_obj_mass -> function
+chat_input_clear -> function
+edit_game -> function
+disable_sound -> function
+get_joint_info -> function
+set_camera_angle -> function
+end_tutorial -> function
+echo -> function
+get_shift_key_state -> function
+get_score -> function
+tbdata -> function
+enable_camera_movement -> function
+set_event_hook -> function
+JOINT_STATE ->
+	BACK -> 	2
+	FORWARD -> 	1
+	RELAX -> 	4
+	HOLD -> 	3
+set_selected_joint_relax_color -> function
+get_player_info -> function
+fracture_joint -> function
+unfreeze_game -> function
+get_ghost -> function
+set_dq -> function
+draw_centered_text -> function
+get_blood_age -> function
+load_texture -> function
+get_turn_frame -> function
+draw_disk -> function
+uninit_torishop -> function
+set_obj_flag -> function
+set_camera_pos -> function
+set_volume -> function
+set_body_texture -> function
+get_bouts -> function
+rewind_replay -> function
+get_body_info -> function
+ARG1 -> 
+draw_sphere -> function
+set_obj_force -> function
+MSGTYPE ->
+	PLAYER -> 	16
+	SERVER -> 	1
+	URL -> 	2
+	INGAME -> 	4
+	USER -> 	8
+	NONE -> 	0
+get_joint_screen_pos -> function
+get_joint_on_frame_info -> function
+set_body_sides -> function
+get_color_info -> function
+get_downloads -> function
+get_compact_chat_lines -> function
+set_body_rotation -> function
+get_body_on_frame_info -> function
+disable_camera_movement -> function
+set_option -> function
+indicate_joint -> function
+set_color -> function
+get_joint_pos2 -> function
+startup -> true
+draw_triangle -> function
+get_rpg_info -> function
+BODYPARTS ->
+	L_FOOT -> 	20
+	CHEST -> 	2
+	R_HAND -> 	11
+	R_FOOT -> 	19
+	R_THIGH -> 	15
+	L_HAND -> 	12
+	R_BICEPS -> 	6
+	L_THIGH -> 	16
+	L_PECS -> 	8
+	R_TRICEPS -> 	7
+	R_PECS -> 	5
+	STOMACH -> 	3
+	GROIN -> 	4
+	R_BUTT -> 	13
+	L_TRICEPS -> 	10
+	HEAD -> 	0
+	R_LEG -> 	18
+	BREAST -> 	1
+	L_BICEPS -> 	9
+	L_LEG -> 	17
+	L_BUTT -> 	14
+get_window_size -> function
+set_replay_speed -> function
+remove_hooks -> function
+open_url -> function
+get_grip_info -> function
+JOINTS ->
+	NECK -> 	0
+	L_SHOULDER -> 	8
+	CHEST -> 	1
+	L_HIP -> 	15
+	ABS -> 	3
+	R_KNEE -> 	16
+	R_SHOULDER -> 	5
+	L_KNEE -> 	17
+	R_ELBOW -> 	6
+	L_GLUTE -> 	13
+	L_PECS -> 	7
+	L_ANKLE -> 	19
+	R_PECS -> 	4
+	R_ANKLE -> 	18
+	L_WRIST -> 	11
+	LUMBAR -> 	2
+	R_WRIST -> 	10
+	L_ELBOW -> 	9
+	R_HIP -> 	14
+	R_GLUTE -> 	12
+start_torishop_camera -> function
+draw_line_3d -> function
+get_body_screen_pos -> function
+set_camera_lookat -> function
+screenshot -> function
+set_gradient_color -> function
+set_body_torque -> function
+set_gameover_timelimit -> function
+is_game_frozen -> function
+draw_box -> function
+set_obj_pos -> function
+get_replay_speed -> function
+set_camera_mode -> function
+set_joint_color -> function
+run_cmd -> function
+get_grip_lock -> function
+get_cur_chat_lines -> function
+draw_right_text -> function
+set_ground_impact_color -> function
+draw_capsule -> function
+init_mod_world -> function
+set_selected_joint_force_color -> function
+draw_ground_impact -> function
+reset_camera -> function
+set_separate_trail_color -> function
+run_tutorial -> function
+set_obj_sides -> function
+get_obj_angular_vel -> function
+get_bout_info -> function
+get_master -> function
+TORIBASH_VERSION -> 4.91
+get_joint_dismember -> function
+get_world_state -> function
+get_customs -> function
+set_fov -> function
+set_default_rules -> function
+remove_hook -> function
+set_obj_color -> function
+set_torishop -> function
+draw_capsule_m -> function
+get_blood_vel -> function
+unload_texture -> function
+get_beginner -> function
+disable_player_select -> function
+get_spectators -> function
+set_body_pos -> function
+draw_chat_message -> function
+get_obj_pos -> function
+get_body_angular_vel -> function
+set_body_force -> function
+set_hair_color -> function
+get_option -> function
+set_trail_color -> function
+get_obj_linear_vel -> function
+draw_boxed_text -> function
+set_timex_color -> function
+draw_sphere_m -> function
+draw_tori -> function
+get_joint_fracture -> function
+get_obj_bounce -> function
+chat_input_deactivate -> function
+get_files -> function
+enable_sound -> function
+open_menu -> function
+get_volume -> function
+start_new_game -> function
+set_body_color -> function
+draw_chat_messages -> function
+set_obj_bounce -> function
+get_spectator_info -> function
+set_joint_radius -> function
+set_gradient_secondary_color -> function
+set_separate_trail_color_2 -> function
+set_joint_state -> function
+add_trail_particle -> function
+set_hair_settings -> function
+get_obj_vis -> function
+set_joint_relax_color -> function
+draw_chat_input -> function
+export_mod -> function
+get_head_info -> function
+load_player -> function
+is_steam_logon -> function
+set_torso_color -> function
+set_gradient_primary_color -> function
+set_player_relax -> function
+set_blood_color -> function
+reset_hair -> function
+draw_quad -> function
+set_score -> function
+set_camera_range -> function
+run_frames -> function
+set_obj_vis -> function
+get_string_length -> function
+set_decal -> function
+get_blood_pos -> function
+set_joint_force_color -> function
+draw_box_m -> function
+freeze_game -> function
+get_active_bloods -> function
+get_blood_radius -> function
+draw_text_3d -> function
+chat_input_activate -> function
+get_camera_info -> function
+set_joint_pos -> function
+FONTS ->
+	BIG -> 	0
+	MEDIUM -> 	2
+	SMALL -> 	1
+draw_text -> function
+select_player -> function
+get_chat_type -> function
+get_joint_pos -> function
+call_hook -> function
+get_num_blood_particles -> function
+get_total_chat_lines -> function
+set_ghost -> function
+step_to_end -> function
+get_obj_sides -> function
+get_joint_color -> function
+get_joint_radius -> function
+get_obj_flag -> function
+set_rpg -> function
+get_obj_rot -> function
+get_game_rules -> function
+read_replay -> function
+dismember_joint -> function
+get_screen_pos -> function
+get_purchase_done -> function
